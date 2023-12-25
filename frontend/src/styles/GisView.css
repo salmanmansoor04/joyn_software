@@ -1,0 +1,140 @@
+.mapSideBar{
+    height: 100%;
+    width: 15%;
+    background: white;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 2;
+    font-size: 13px;
+}
+
+.mapSideBarShorten{
+    width: 2%;
+}
+
+.tracks{
+    height: calc(100% - 50px);
+    overflow: auto;
+}
+
+.active{
+  background-color: greenyellow;
+}
+
+.inactive{
+  background-color: red;
+  color: white;
+}
+
+.filterApplied{
+  color: red;
+}
+
+.filters{
+    height: 50%;
+}
+
+.map{
+    height: 100%;
+    width: 85%;
+    transition: all 1s ease;
+}
+
+.mapBigger{
+  width: 98%;
+}
+
+.GisView_report{
+    position: absolute;
+    height: 100%;
+    background: white;
+    color:black;
+    width: 30%;
+    right: 0;
+    top: 0;
+    right: 0;
+    z-index: 10000000;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    
+}
+
+.GisView_image{
+  position: absolute;
+    height: 100%;
+    background: white;
+    width: 30%;
+    right: 0;
+    top: 0;
+    right: 0;
+    z-index: 10000000;
+    color:black;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    overflow: auto;
+}
+
+.GisView_filterWindow{
+  z-index: -1;
+  background: white;
+  font-size: 13px;
+  color: black;
+  font-size: 12px;
+  animation: mymoveside 1s;
+    animation-fill-mode: forwards;
+}
+
+.otdrInfo{
+  width: 200px;
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  z-index: 1;
+  animation: scaling 1s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes mymoveside {
+  from {top: -100%;}
+  to {top: 0;}
+}
+
+@keyframes mymove {
+    from {right: -100%;}
+    to {right: 0px;}
+  }
+
+.downloadWizard{
+  background-color: white;
+  height: 50%;
+  width: 60%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 1000000;
+  animation: scaling 1s;
+   animation-fill-mode: forwards;
+}
+
+.ROW{
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  right: 150px;
+  z-index: 1000000;
+  animation: scaling 1s;
+   animation-fill-mode: forwards;
+}
+
+.mapToolBar{
+  position: absolute;
+  height: auto;
+  width: 40px;
+  right: 10px;
+  top: 60px;
+  z-index: 10000;
+  color: gray;
+  font-size: 20px;
+}

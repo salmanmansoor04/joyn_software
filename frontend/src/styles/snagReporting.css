@@ -1,0 +1,253 @@
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #4162A6 !important; 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4162A6 !important
+      }
+
+.snagReportingWrapper {
+  height: calc(100vh - 30px);
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.snagReporting_sidebar {
+  height: 100%;
+  width: 15%;
+  background: white;
+  box-sizing: border-box;
+}
+
+.snagReporting_content {
+  height: 100%;
+  width: 85%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: rgb(238, 238, 238);
+}
+
+.fixTableHead {
+  overflow-y: auto;
+  height: 80%;
+  box-sizing: border-box;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  font-size: small;
+  padding: 0px 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  font-size: small;
+  text-align: center; 
+}
+
+th {
+  background:white;
+  color: #04b2d9;
+  font-weight: bold !important;
+  height: 50px;
+  white-space: nowrap; 
+  border-right: 1px solid lightgray; 
+  
+}
+
+tr:nth-child(odd){
+  background-color: rgb(241, 241, 241);
+  color: black;
+}
+
+tr:nth-child(even){
+  background-color: #bdedfc;
+  color: black;
+}
+
+.filterBox {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background-color: #e0f4fa;
+  color:  #04b2d9;
+  left: 0;
+  top: 50px;
+  font-size: small;
+  font-weight: bold;
+  text-align: left;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.filterBoxInner{
+  width: 100%;
+  white-space: initial;
+}
+
+.pagination {
+  height: 5%;
+  width: 100%;
+  background: #e0f4fa;
+  color: #04b2d9;
+  font-size: small;
+  font-weight: bold ;
+  border-bottom: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterIcon {
+
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterIcon:hover {
+  background-color: lightgray;
+}
+
+.shorten{
+
+  width: 70%;
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  overflow-x: hidden;
+}
+
+.pageItem {
+  color: #04b2d9;
+  font-size: 20px;
+  font-weight: bold ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.borderRemove {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+.borderWhite {
+  text-decoration: underline;
+}
+
+.activeFilter {
+  color: rgb(255, 0, 0);
+}
+
+.mapView {
+  height: 10%;
+  width: 100%;
+  position: relative;
+}
+
+.snagImageContainer {
+  position: absolute;
+  height: 100%;
+  background: lightslategrey;
+  width: 40%;
+  right: 0;
+  top: 0;
+  right: 0;
+  z-index: 10000000;
+  color: white;
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+  overflow: auto;
+}
+
+@keyframes mymove {
+  from {
+    right: -100%;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+.mapFullScreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.taskAssignWizard {
+  position: absolute;
+  z-index: 1000000;
+  height: calc(100% - 50px);
+  width: 20%;
+  background: white;
+  color: #04b2d9;
+  overflow: auto;
+  top: 30px;
+  right: 0;
+  cursor: pointer;
+}
+
+.taskAssignWizardMapFull {
+  position: absolute;
+  z-index: 1000000;
+  height: 100%;
+  width: 20%;
+  background: white;
+  color: #04b2d9;
+  font-weight: bold;
+  font-size: 13px;
+  overflow: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.Snag_Reporting_TeamCreationInputFieldsContainer2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Snag_Reporting_TeamCreationInputField2{
+  width: 30%;
+}

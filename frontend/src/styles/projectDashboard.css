@@ -1,0 +1,23 @@
+.projectDashboard_Wrapper{
+    height: calc(100% - 30px);
+    width: 100%;
+    position: relative;
+}
+.gantChart{
+    border: 1px solid black;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bottom{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.projectDashboardTable{
+    height: 100%;
+}

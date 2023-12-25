@@ -1,0 +1,23 @@
+.ProjectEntryWrapper{
+    height: calc(100% - 30px);
+    width: 100%;
+    position: relative;
+}
+
+.ProjectEntryBottomBar{
+    height: 30px;
+    width: 100%;
+    background: #4162A6;
+}
+
+.ProjectEntryForm{
+    height: 50%;
+    width: 60%;
+    background-color:#04b2d9;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000000;
+}

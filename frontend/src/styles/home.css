@@ -1,0 +1,42 @@
+.home_wrapper{
+    height: calc(100vh - 50px);
+    width: 100vw;
+    background: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home_sideMenu{
+    height: 100%;
+    width: 15%;
+    background: rgb(255, 255, 255);
+}
+
+.home_sidebar_item{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.home_sidebar_item:hover{
+    background-color: #1da1f2 !important;
+    color: white !important;
+}
+
+.home_Content{
+
+    height: 100%;
+    width: 85%;
+    background-color: white;
+    overflow: auto;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.activeComponent{
+    background-color: #1da1f2 !important;
+    color:  white !important;
+    font-weight: bold;
+}

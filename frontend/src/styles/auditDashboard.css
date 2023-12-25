@@ -1,0 +1,56 @@
+.auditDashboard_Heading{
+    text-align: center;
+    height: 30px;
+    margin: 0;
+}
+
+.auditDashboard_Charts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.auditDashboard_chart{
+    height: 48%;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.auditDashboard_card{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0f4fa;
+    color: #04b2d9;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 100%;
+    width: 33%;
+
+}
+
+.auditDashboard_DailyTrendChart{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1000px) {
+   
+    .auditDashboard_chart{
+        width: 100%;
+    }
+  }

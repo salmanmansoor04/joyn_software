@@ -1,0 +1,35 @@
+.TeamManagementWrapper{
+    height: calc(100vh - 50px);
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.TeamManagementSideBar{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.TeamManagementOutlet{
+    height: 100%;
+    width: 85%;
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+}
+
+.TeamManagementActiveComponent{
+    background-color: #1da1f2 !important;
+    color:  white !important;
+}
+
+.TeamManagementLink{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*setFunctions([...functions, functionName]);*/

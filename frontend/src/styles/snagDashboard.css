@@ -1,0 +1,28 @@
+.heading{
+    text-align: center;
+    margin:0;
+    height: 30px;
+}
+
+.charts_wrapper{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+
+.chart{
+    width: 32%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.chartBottom{
+    width: 24%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

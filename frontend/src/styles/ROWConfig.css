@@ -1,0 +1,53 @@
+.ROWConfig_wrapper{
+    height: calc(100% - 30px);
+    width: 100%;
+    position: relative;
+    color: red;
+}
+
+.ROWConfig_bottomBar{
+    height: 30px;
+    width: 100%;
+    background: #4162A6;
+}
+
+.ROWConfig_addDetailWizard{
+    height: 50%;
+    width: 60%;
+    background-color:#04b2d9;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000000;
+}
+
+.ROWConfig_mapView{
+    height: calc(100% - 30px);
+    width: 100%;
+}
+
+.segmentControlBarLeft{
+    height: 3px;
+    width: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    background: red;
+    transition: all 0.5s ease;
+}
+
+.segmentControlBarRight{
+    height: 3px;
+    width: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    background: red;
+    transition: all 0.5s ease;
+}

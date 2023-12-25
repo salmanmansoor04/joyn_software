@@ -1,0 +1,38 @@
+.overviewDashboard_wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(238, 238, 238);
+}
+
+.chartLargeOuter {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(243, 243, 243, 0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartLargeInner {
+  height: 70%;
+  width: 40%;
+  border: 1px solid lightgray;
+  animation: scaling 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scaling {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

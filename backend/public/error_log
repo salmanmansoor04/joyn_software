@@ -1,0 +1,2 @@
+[18-Oct-2022 07:05:15 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.3.33. in /home/xqeaj1mmtn3r/public_html/backend/vendor/composer/platform_check.php on line 24
+[18-Oct-2022 07:05:23 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.3.33. in /home/xqeaj1mmtn3r/public_html/backend/vendor/composer/platform_check.php on line 24

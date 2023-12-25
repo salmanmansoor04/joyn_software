@@ -1,0 +1,41 @@
+.FeatureConfig_wrapper{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.FeatureConfig_Customers_Flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.FeatureConfig_Customers_Flex_Item{
+    height: 300px;
+    width: 22%;
+    background-color: white;
+    color: #04b2d9;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.FeatureConfig_featureSmallWindow{
+    position: absolute;
+    background-color: #e0f4fa;
+    padding: 10px;
+    animation: FeatureConfigSlide 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+
+}
+
+@keyframes FeatureConfigSlide {
+    from {left: -50%; opacity: 0;}
+    to {left: 0%; opacity: 1;}
+  }
+
+.FeatureConfig_list{
+    font-size: 13px;
+}

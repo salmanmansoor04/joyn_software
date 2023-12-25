@@ -1,0 +1,35 @@
+.JourneyPlan_wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.JourneyPlan_map{
+    height: calc(100% - 30px);
+    width: 100%;
+}
+
+.JourneyPlan_BottomBar{
+    height: 30px;
+    width: 100%;
+    background-color: #4162a6;
+}
+
+.JourneyPlan_enterPJPwizard{
+    height: calc(100% - 30px);
+    width: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color:white;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000000;
+}
+
+.JourneyPlan_area_wizard{
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}

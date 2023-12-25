@@ -1,0 +1,85 @@
+.TaskCreationWrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgb(238, 238, 238);
+}
+
+.TaskCreationBottomBar{
+    height: 30px;
+    background-color: rgb(59, 89, 152);
+}
+
+.TasksCreation_tasks_Outer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.TasksCreation_tasks_flexbox{
+    height: calc(100% - 50px);
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    border-right: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.TasksCreation_tasks_flexbox_onlyTasks{
+    height: calc(100% - 30px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    border-right: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.TasksCreation_tasks_Inner{
+    background-color: #fcfdfe;
+    color: #04b2d9;
+    font-weight: bold;
+    height: 200px;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.TasksCreation_tasks_Inner_onlyTasks{
+    background-color: #fcfdfe;
+    color: #04b2d9;
+    font-weight: bold;
+    height: 200px;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.TaskCreation_taskDetailWizard{
+    background-color:#04b2d9;
+    color: white;
+    height: 50%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.TaskCreation_Map{
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    z-index: 100000;
+    bottom: 0;
+    right: 0;
+}

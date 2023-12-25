@@ -1,0 +1,41 @@
+.logoutButton:hover{
+    background-color: rgb(5, 48, 48) !important;
+    color:white;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.TopBar_SettingsButton {
+
+    position: absolute;
+    height: 90px;
+    width: 200px;
+    background-color: #4162a6 !important;
+    color:  white !important;
+    right: 20px;
+    top: 52px;
+    z-index: 2000000000;
+    border-radius: 5px;
+    animation: scaling 0.5s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+@keyframes scaling {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+  }
+
+  .TopBar_SettingsButton_inner{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 15px;
+  }

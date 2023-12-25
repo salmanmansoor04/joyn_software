@@ -1,0 +1,176 @@
+.UserManagement_wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+
+.UserManagement_wrapper_title{
+    color: red;
+}
+
+.UserManagement_top{
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.UserManagement_top_inner{
+    height: 80%;
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #e0f4fa;
+    color:  #04b2d9;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.UserManagement_top_inner > span {
+    cursor: pointer;
+}
+
+.UserManagement_userEntry{
+    width: 100%;
+    animation: scaleheight 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@keyframes scaleheight {
+    from {height: 0%;}
+    to {height: 30%;}
+  }
+
+.UserManagement_usersTab{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.UserManagement_usersList{
+    width: 100%;
+    height: 85%;
+}
+
+.UserManagement_usersList_TopBar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.UserManagement_usersList_TopBar_left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.UserManagement_usersList_TopBar_right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserManagement_inputField{
+    width: 20%;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #e0f4fa;
+    color:  #04b2d9;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.UserManagement_inputField_heading{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.UserManagement_inputField_field{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.UserManagement_organizationEntry{
+    width: 100%;
+    animation: scaleheight2 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@keyframes scaleheight2 {
+    from {height: 0%;}
+    to {height: 20%;}
+  }
+
+.UserManagement_organizationEntry_addButton{
+    width: 100%;
+    text-align: center;
+}
+
+.UserManagement_organizationEntry_addButton > button {
+    background-color: #4162A6;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.UserManagement_rolesTab{
+    background-color: aliceblue;
+    width: 100%;
+    height: 90%;
+}
+
+.UserManagement_roleEntry{
+    width: 100%;
+    animation: scaleheight3 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@keyframes scaleheight3 {
+    from {height: 0%;}
+    to {height: 20%;}
+  }
+
+.UserManagement_roleEntry_left{
+    width: 70%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.UserManagement_roleEntry_right{
+    width: 30%;
+    height: 100%;
+    overflow: auto;
+}
